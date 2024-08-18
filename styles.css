@@ -1,0 +1,145 @@
+* {
+    font-family: 'Montserrat';
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.HomePage {
+    background-image: url(assets/CityBG.png);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navlogo {
+    margin-top: auto;
+    margin-right: auto;
+    height: 40px;
+    padding-left: 94px;
+    padding-top: 21px;
+    
+}
+.navheader {
+    
+    font-family: 'Poppins';
+    text-align: center;
+    word-spacing: 40px;
+    margin-top: 40px;
+    color: #FFFFFF;
+}
+
+.navbar-social {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: 12px;
+    gap: 10px;
+
+}
+
+.container {
+    position: absolute;
+    top: 50%;  /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%);
+    color: #FFD60A;
+    text-align: center;
+    margin-top: auto; /* Move o texto um pouco para cima */
+    width: 1034px;
+}
+.container h1 {
+    font-size: 72px; /* Tamanho da fonte do texto principal */
+}
+
+.container h3 {
+    font-size: 18px; /* Tamanho da fonte do texto menor */
+}
+.container span {
+    font-weight: 400;
+}
+.get-expert-btn {
+    color: #FFFFFF;
+    background-color: #003566;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    width: 300px;
+    height: 60px;
+    font-size: 16px;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    margin: auto;
+    font-weight: 700;
+}
+
+.get-expert-btn img {
+    margin-left: auto;
+    margin-right: 10px;
+}
+.get-expert-btn p {
+    margin-left: 30px;
+}
+.AboutPage {
+    background-image: url(assets/Aboutt.png);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    
+}
+.aboutcontainer {
+    display: flex;
+    color: #FFD60A;
+    padding-top: 10px;
+    padding-left: 80px;
+    position: relative;
+    flex-direction: column;
+    
+   
+}
+.aboutcontainer h1 {
+     font-size: 72px;
+}
+.aboutcontainer h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+.textcontainer {
+    max-width: 50%;
+}
+.stats {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    max-width: 50%;
+    padding-left: 220px;
+    
+}
+.statitem {
+    color: #FFD60A;
+    display: flex;
+
+}
+.statitem img {
+    padding: 20px;
+    width: 70px;
+    height: 70px;
+}
+.statitem h2 {
+    font-size: 42px;
+}
+.statitem h4 {
+    font-size: 14px;
+}
+.imagecontainer {
+    max-width: 50%;
+}
