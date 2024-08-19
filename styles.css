@@ -127,18 +127,31 @@ body, html {
 .statitem {
     color: #FFD60A;
     display: flex;
-
+    flex-direction: row; /* Mantém o layout em linha */
+    align-items: center; /* Alinha verticalmente ao centro */
+    text-align: left; /* Alinha o texto à esquerda */
 }
+
 .statitem img {
     padding: 20px;
     width: 70px;
     height: 70px;
 }
+
+.statitem-content {
+    display: flex;
+    flex-direction: column; /* Organiza o conteúdo verticalmente dentro de cada item */
+    justify-content: center; /* Centraliza verticalmente o conteúdo */
+}
+
 .statitem h2 {
     font-size: 42px;
+    margin: 0; /* Remove a margem para evitar deslocamento indesejado */
 }
+
 .statitem h4 {
     font-size: 14px;
+    margin-top: 5px; /* Adiciona margem superior para separar do texto grande */
 }
 .imagecontainer {
     max-width: 50%;
