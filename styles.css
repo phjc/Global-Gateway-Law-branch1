@@ -72,7 +72,7 @@ body, html {
     border: none;
     border-radius: 30px;
     padding: 10px 20px;
-    width: 300px;
+    width: 322px;
     height: 60px;
     font-size: 16px;
     align-items: center;
@@ -84,7 +84,7 @@ body, html {
 
 .get-expert-btn img {
     margin-left: auto;
-    margin-right: 10px;
+    margin-right: 25px;
 }
 .get-expert-btn p {
     margin-left: 30px;
@@ -107,14 +107,14 @@ body, html {
    
 }
 .aboutcontainer h1 {
-     font-size: 72px;
+     font-size: 84px;
 }
 .aboutcontainer h3 {
-    font-size: 20px;
+    font-size: 38px;
     font-weight: 400;
 }
 .textcontainer {
-    max-width: 50%;
+    max-width: 60%;
 }
 .stats {
     display: flex;
@@ -134,8 +134,9 @@ body, html {
 
 .statitem img {
     padding: 20px;
-    width: 70px;
-    height: 70px;
+    padding-bottom: 40px;
+    width: 90px;
+    height: 90px;
 }
 
 .statitem-content {
@@ -145,14 +146,47 @@ body, html {
 }
 
 .statitem h2 {
-    font-size: 42px;
+    font-size: 60px;
     margin: 0; /* Remove a margem para evitar deslocamento indesejado */
 }
 
 .statitem h4 {
-    font-size: 14px;
+    font-size: 20px;
     margin-top: 5px; /* Adiciona margem superior para separar do texto grande */
+    font-weight: 500;
 }
 .imagecontainer {
-    max-width: 50%;
+    max-width: 45%; /* A imagem ocupará até 45% do espaço restante */
+    right: 225px; /* Espaçamento entre o texto e a imagem */
+    bottom: -90vh;
+    display: flex;
+    justify-content: flex-end; /* Garante que a imagem se alinhe à direita */
+    position: absolute;
+}
+
+.imagecontainer img {
+    width: 586;
+    height: 788;
+    border-radius: 30px; /* Para arredondar os cantos da imagem */
+    border: 2rem solid;
+    border-color: #FFFFFF;
+}
+.btn2 {
+    padding-top: 40px;
+    padding-right: 600px;
+
+}
+.IconsPage {
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    background-image: url(assets/Icons\ Page.png);
+}
+.MainElements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 766;
+    height: 195;
+    position: absolute;
 }
