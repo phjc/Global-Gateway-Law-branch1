@@ -45,6 +45,12 @@ body, html {
     gap: 10px;
 
 }
+.gmailconst {
+    padding-top: 3.6px;
+}
+.arrowconst {
+    padding-top: 6px;
+}
 
 .container {
     position: absolute;
@@ -184,9 +190,34 @@ body, html {
 }
 .MainElements {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    width: 766;
-    height: 195;
-    position: absolute;
+    height: 430px;
+}
+.ElementsItems {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 200px;
+    padding-left: 0; /* Remover padding excessivo */
+    padding-right: 0; /* Remover padding excessivo */
+    padding-top: 10vh;
+}
+
+.GloboElement, .CertifiedElement, .PasspourtElement {
+    display: flex;
+    flex-direction: column; /* Alinhar o texto abaixo da imagem */
+    align-items: center; /* Centralizar o texto horizontalmente */
+    justify-content: center; /* Centralizar o texto verticalmente */
+    text-align: center; /* Garantir que o texto fique centralizado */
+}
+
+.GloboElement h2, .CertifiedElement h2, .PasspourtElement h2 {
+    color: #FFFFFF;
+    margin-top: 15px; /* Espaçamento entre a imagem e o texto */
+}
+.PasspourtElement {
+    
+    margin-left: -90px; /* Ajuste fino para centralizar */
+    
 }
