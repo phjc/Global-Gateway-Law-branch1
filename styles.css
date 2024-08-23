@@ -176,6 +176,7 @@ body, html {
     border-radius: 30px; /* Para arredondar os cantos da imagem */
     border: 2rem solid;
     border-color: #FFFFFF;
+    box-shadow: 10px 10px 0px 5px rgba(0, 0, 0, 0.3);
 }
 .btn2 {
     padding-top: 40px;
@@ -220,4 +221,74 @@ body, html {
     
     margin-left: -90px; /* Ajuste fino para centralizar */
     
+}
+.OurTeamPage {
+    background: url(assets/Our\ Team\ \(1\).png);
+    display: flex;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+.OurTeamText {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 52px;
+    color: #FFC300;
+    text-align: center; /* Centraliza o texto */
+    width: 100%;
+}
+.OTContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.BiogClass {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    height: 722px;
+    background-color: white;
+    border-radius: 16px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 0.3);
+    border-style: solid;
+    
+    
+}
+.BiogClass img {
+    background-color: #d9d9d9;
+    width: 393px;
+    height: 477px;
+    border-radius: 10px;
+}
+.BiogClass h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+.BiogClass h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.FormPage {
+    display: flex;
+    background: url(assets/FormBG.png);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+.FormContainer {
+    display: flex;
+    width: 1375px;
+    height: 790px;
+    background-color: white;
+    box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
 }
