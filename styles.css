@@ -387,3 +387,26 @@ body, html {
     font-weight: 700;
     line-height: normal;
 }
+.ContactPage {
+    display: flex;
+    height: 500px;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    gap: 58px;
+    background: #001D3D;
+}
+.ContactPage h1 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.ContactIcons img {
+    width: 124px;
+    height: 124px;
+    flex-shrink: 0;
+    padding-left: 50px;
+}
