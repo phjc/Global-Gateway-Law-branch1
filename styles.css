@@ -292,3 +292,98 @@ body, html {
     box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 0.3);
     border-radius: 25px;
 }
+.PreConsult {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 30px;
+}
+.InputForms {
+    padding-left: 106px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0px;
+}
+.InputForms h3 {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Rectangle {
+    width: 530px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #DBDADA;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.BlueInfo {
+    width: 450px;
+    height: 470px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #003566;
+    box-shadow: 6px 6px 2px 0px #001D3D;
+    margin-top: 160px;
+    margin-right: 84px;
+    margin-left: 144px;
+    
+}
+.BlueInfo h2 {
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 20px;
+    padding-right: 30px;
+}
+.BlueInfoAtua {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-variant: small-caps;
+    padding: 20px;
+}
+.send-btn {
+    color: #FFFFFF;
+    background-color: #003566;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    width: 230px;
+    height: 60px;
+    font-size: 16px;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    margin-top: 700px; 
+    margin-left: 580px;  
+    font-weight: 700;
+    position: absolute;
+}
+.send-btn p {
+    padding-left: 70px;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
