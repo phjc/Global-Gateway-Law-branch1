@@ -63,11 +63,11 @@ body, html {
     width: 1034px;
 }
 .container h1 {
-    font-size: 72px; /* Tamanho da fonte do texto principal */
+    font-size: 4rem; /* Tamanho da fonte do texto principal */
 }
 
 .container h3 {
-    font-size: 18px; /* Tamanho da fonte do texto menor */
+    font-size: 1rem; /* Tamanho da fonte do texto menor */
 }
 .container span {
     font-weight: 400;
@@ -80,7 +80,7 @@ body, html {
     padding: 10px 20px;
     width: 322px;
     height: 60px;
-    font-size: 16px;
+    font-size: 1rem;
     align-items: center;
     cursor: pointer;
     display: flex;
@@ -113,21 +113,21 @@ body, html {
    
 }
 .aboutcontainer h1 {
-     font-size: 84px;
+     font-size: 3rem;
 }
 .aboutcontainer h3 {
-    font-size: 38px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 .textcontainer {
-    max-width: 60%;
+    max-width: 50%;
 }
 .stats {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
     max-width: 50%;
-    padding-left: 220px;
+    padding-left: 4rem;
     
 }
 .statitem {
@@ -152,18 +152,18 @@ body, html {
 }
 
 .statitem h2 {
-    font-size: 60px;
+    font-size: 2.2rem;
     margin: 0; /* Remove a margem para evitar deslocamento indesejado */
 }
 
 .statitem h4 {
-    font-size: 20px;
+    font-size: 1.2rem;
     margin-top: 5px; /* Adiciona margem superior para separar do texto grande */
     font-weight: 500;
 }
 .imagecontainer {
     max-width: 45%; /* A imagem ocupará até 45% do espaço restante */
-    right: 225px; /* Espaçamento entre o texto e a imagem */
+    right: 6rem; /* Espaçamento entre o texto e a imagem */
     bottom: -90vh;
     display: flex;
     justify-content: flex-end; /* Garante que a imagem se alinhe à direita */
@@ -171,8 +171,8 @@ body, html {
 }
 
 .imagecontainer img {
-    width: 586;
-    height: 788;
+    width: 32rem;
+    height: 42rem;
     border-radius: 30px; /* Para arredondar os cantos da imagem */
     border: 2rem solid;
     border-color: #FFFFFF;
@@ -242,7 +242,7 @@ body, html {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 90%;
     height: 90%;
     overflow-y: scroll;  
 }
